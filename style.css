@@ -1,0 +1,844 @@
+/*############# Defaults ###############*/
+nav, header, footer{
+    display: block;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Sora';
+    font-size: 15px;
+    line-height: 1;
+    margin:10;
+    background-color: #290066;
+    letter-spacing: 0.1em;
+    
+}
+
+/*##################### Classes ######################*/
+
+.container{
+    color: aliceblue;
+    padding: 1%;
+    margin:10px;
+    margin-right: 10px;
+    
+}
+
+
+img{
+/*    max-width: 100%;*/
+    height: auto;
+}
+
+.myimageleft{
+    position: relative;
+    right: 200px;
+    border-radius: 10px;
+    width: 310px;
+    height: 350px;
+/*    border: 2px solid #ddd;*/
+    padding: 5px;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row::after{
+    display: table;
+    clear: both;
+    content="";
+}
+
+h1.fontSize{
+    font-family: "Sora";
+    color: #fff;
+    font-size: 70px;
+    margin: 10px;
+    margin-top: 150px;
+    margin-left: 35px;
+    margin-bottom: 100px;
+}
+
+h2.fontSize{
+    font-family: "Sora";
+    color: #fff;
+    font-size: 50px;
+    margin: 10px;
+    margin-left: 35px;
+}
+
+h2.aboutMe{
+    
+    font-family: "Sora";
+    color: #ffe6ff;
+    font-size: 50px;
+    margin: 0;
+    margin-top: 50px;
+    margin-left: 35px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+/*    padding: 20px;*/
+}
+
+/*
+div.colorSplash{
+    position: relative;
+    top:0;
+    left:0;
+}
+*/
+
+.PinkSplash{
+    position: relative;
+    height: 400px;
+    width: 480px;
+    top:0;
+    right: 50px;
+    animation: animatepinkSplash 4s linear infinite;
+    
+}
+
+.PurpleSplash1{
+    position: absolute;
+    bottom:100px;
+    right: 100px;
+    height: 200px;
+    width:300px;
+    animation: animatepurpleSplash 4s linear infinite;
+    
+}
+
+.PurpleSplash2{
+    position: absolute;
+    bottom:420px;
+    right: 350px;
+    height: 150px;
+    width:250px;
+    transform: rotateY(180deg);
+    animation: animatepurpleSplash 4s linear infinite;
+    
+}
+
+.PurpleSplashStill{
+    position: absolute;
+    bottom: -30px;
+    right: 1350px;
+    height: 200px;
+    width: 250px;
+    transform: rotate(-10deg);
+    z-index: -1;
+    
+}
+
+.PurpleSplashStill1{
+    position: absolute;
+    bottom: -150px;
+    right: 600px;
+    height: 200px;
+    width: 250px;
+    transform: rotate(180deg);
+    z-index: -1;
+}
+
+.PurpleSplashStill2{
+    position: absolute;
+    bottom: 0px;
+    top: -120px;
+    right: 1200px;
+    height: 200px;
+    width: 250px;
+    transform: rotate(180deg);
+    z-index: -1;
+}
+
+
+.PurpleSplashStill3{
+    position: absolute;
+    bottom: 0px;
+    top:  1400px;
+    right: 1300px;
+    height: 200px;
+    width: 250px;
+    transform: rotate(180deg);
+    z-index: -1;
+}
+
+.PurpleSplashStill4{
+    position: absolute;
+    bottom: 0px;
+    top:  2000px;
+    right: 0px;
+    height: 210px;
+    width: 300px;
+/*    transform: rotate(deg);*/
+    z-index: -1;
+}
+
+
+@keyframes animatepinkSplash{
+    50%{
+        top: 40%;
+        width: 450px;
+    }
+}
+
+@keyframes animatepurpleSplash{
+    50%{
+        height: 190px;
+        width:280px;
+        
+    }
+}
+
+img.myphoto{
+    position:absolute;
+    height: 300px;
+    width: 350px;
+    top: 220px;
+    right: 160px;
+    
+}
+
+
+
+
+
+.multitext{
+    font-family: "Sora";
+    color: #7a00cc;
+    font-size: 60px;
+    margin: 10px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+
+div.box{
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f7e6ff;
+    margin:25px;
+    box-shadow: 0 0 0 3px rgba(0,0,0,0.15), 0 2px 3px 0 rgba(0,0,0,0.1);
+}
+
+/*
+img{
+    height: 300px;
+    width: 100%;
+}
+*/
+
+img.lampphoto{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 300px;
+    width: 100%;
+}
+
+
+
+
+div.SafarIcon{
+    width:100%;
+}
+
+
+
+
+
+label{
+    color: black;
+    font-size: 25px;
+    font-family: 'Sora';
+    font-weight: 600;
+}
+
+h2.projectHeadingSafar{
+    font-family: "Source Code Pro";
+    color: #fff;
+    font-size: 80px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+h2.projectHeadingLamp{
+    position: relative;
+    left: 1150px;
+    margin-right: 0px;
+    margin-left: auto;
+    font-family: "Source Code Pro";
+    color: #4700b3;
+    text-align: right;
+    font-size: 80px;
+    
+/*    padding-left: 450px;*/
+}
+
+
+
+h2.projectHeadingFry{
+    font-family: "Source Code Pro";
+    color: #fff;
+    font-size: 80px;
+    padding: 10px;
+    margin: 10px;
+}
+
+h2.projectSubHeadingSafar{
+    width: auto;
+    font-family: "Source Code Pro";
+    color: #f7e6ff;
+    font-size: 20px;
+    margin: 10px;
+}
+
+
+
+p{
+    margin: 10px;
+    font-family: "Sora";
+    color: black;
+    font-size: 15px;
+    word-spacing: 5px;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    
+}
+
+p.about{
+    margin: 30px;
+    font-family: "Sora";
+    color: white;
+    font-size: 15px;
+    word-spacing: 5px;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    list-style: none;
+    
+}
+
+/*#################ABOUT ME TABS################*/
+
+div.tabs{
+    display: flex;
+    margin-left: 30px;
+    
+}
+
+.tablink{
+    float: left;
+    color: #fff;
+    margin-right: 100px;
+    font-size: 18   px;
+    font-weight: 1000;
+    cursor: pointer;
+    position: relative;
+}
+
+.tablink::after{
+    content:'';
+    width:0;
+    height: 3px;
+    background-color: #ffe6ff;
+    position: absolute;
+    left:0;
+    bottom: -6px;
+    transition: 1s;
+}
+
+.tablink.activeLink::after{
+    width:70%;
+}
+
+.tabContent ul li{
+/*    display: flex;*/
+    display: block;
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    font-size: 15px;
+}
+
+.tabContent ul li span{
+    list-style:none;
+    color:  #7a00cc;
+    font-weight: 900;
+    font-size: 15px;
+    
+    
+}
+
+.tabContent{
+    display: none;
+}
+
+.tabContent.activeContent{
+    display: block;
+}
+
+
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}  
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+#text{
+    
+    font-family: 'Sora';
+    font-size: 100px;
+    letter-spacing: 5px;
+    font-weight: 1000;
+/*    float: left;*/
+    display: block;
+    margin: 0px;
+    left: 1020px;
+    top: 1050px;
+    color: #7a00cc;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    transition: all 0.6s ease-in-out;
+    padding: 0;
+    
+}
+
+.PinkSplash1{
+    position: absolute;
+    height: 500px;
+    width: 610px;
+    left: 900px;
+    top: 800px;
+    
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+/*############# Navigation bar ###############*/
+
+nav{
+/*    width:100%;*/
+    margin: 10px;
+}
+
+nav ul{
+/*    background-color:#b3b3ff;*/
+    overflow: hidden;
+    margin:0; 
+    padding:0;
+}
+
+.logo{
+    
+    display: block;
+    float: left;
+/*    text-decoration: none;*/
+/*    min-height: 16px;*/
+    font-weight: 900;
+    font-size: 20px;
+    padding:20px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #7a00cc;
+    letter-spacing: 3px; 
+    
+}
+
+
+
+ul.topNav li{
+    list-style: none;
+    float: left;
+}
+
+ul.topNav li.topNavRight{
+    list-style: none;
+    float: right;   
+}
+
+
+ul.topNav li a{
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding:20px;
+/*    text-transform: uppercase;*/
+    color: aliceblue;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+
+ul.topNav li a:hover{
+    color: #ffe6ff;
+    transform: translateY(-10px);
+}
+
+ul.topNav li.dropDown{
+    display: none;
+    
+    
+}
+
+
+
+
+/*###############My projects##################*/
+
+
+#projects{
+    padding-top: 50px;
+    
+}
+
+.project_list{
+    padding-left: 20px;
+    padding-right: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+
+.mywork{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.mywork img{
+    height: 300px;
+    width:100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.sevasaathi img{
+    height: 300px;
+    width: 470px;
+    
+}
+
+.project_content{
+    width=100%;
+    height: 0;
+    background: linear-gradient(rgba(0,0,0,0.5), #5c5c8a );
+    position: absolute;
+    border-radius: 10px;
+    left: 0px;
+    bottom: 0px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 3px;
+    transition height: 0.5s;
+}
+
+.project_content p{
+    color: #fff;
+}
+
+.project_content h3{
+    font-weight: 1000;
+    margin: 20px;
+}
+
+
+.project_content a{
+    color: #b3b3ff;
+    font-size: 30px;
+    width:60px;
+}
+
+.mywork:hover img{
+    transform: scale(1.1);
+}
+
+.mywork:hover .project_content{
+    height: 100%;
+}
+
+
+/*##############Contact me############### */
+
+
+
+
+.col-7{
+    margin: 10px;
+}
+
+.col-4 p{
+    color: #fff;
+}
+
+.col-4 p i{
+    margin-top: 40px;
+    margin-left: 35px;
+    color: #7a00cc;
+}
+
+.social-media{
+    margin-top: 30px;
+    margin-left: 45px; 
+    font-size: 30px;
+}
+
+.social-media a{
+    color: #7a00cc;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-right: 50px;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.social-media a:hover{
+    color: #ffe6ff;
+    transform: translateY(-10px);
+}
+
+.butt{
+    display: block;
+    margin:45px;
+    width: fit-content;
+    padding: 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #7a00cc;
+    transition: 0.3s;
+    
+}
+
+.butt2{
+    display: block;
+    margin:18px;
+    width: fit-content;
+    font-family: 'Sora';
+    padding: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #7a00cc;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+.butt:hover{
+    background-color: #ffe6ff;
+    color: #7a00cc;
+    
+}
+
+.butt2:hover{
+    background-color: #ffe6ff;
+    color: #7a00cc;
+    
+}
+
+form input, form textarea{
+    width:100%;
+    border:0;
+    outline: none;
+    padding:10px;
+    margin:15px;
+    border-radius: 5px;
+    font-family: "Sora";
+}
+
+#submitted{
+    margin: 20px;
+}
+
+
+
+/*################# Custom styles ################*/
+
+#gradient1{
+    background-image: linear-gradient(to bottom right, #6666ff,#ccccff);
+}
+
+#gradient2{
+    background-image: linear-gradient(to bottom right, #ff4dff,#ffe6ff);
+}
+
+
+
+
+/*#################Mobile interface ################*/
+@media screen and (max-width: 600px){
+    ul.topNav li{
+        display: none;
+    }
+    
+    ul.topNav li.dropDown{
+        display: block;
+        float:left;
+    }
+    
+    
+    .col-8, .col-4, .col-7, .col-5, .col-9, .col-1{
+        width: 100%;
+        margin: 0;
+    }
+    
+    
+    
+    img.myphoto{
+        position:relative;
+        width: 100%;
+        margin: 0;
+    
+    }
+    
+    h1.fontSize{
+        font-family: "Sora";
+        color: #fff;
+        font-size: 30px;
+        margin: 10px;
+        margin-top: 60px;
+        margin-left: 35px;
+        margin-bottom: 60px;
+    }
+
+    h2.fontSize{
+        font-family: "Sora";
+        color: #fff;
+        font-size: 30px;
+        margin: 10px;
+        margin-left: 35px;
+    }
+
+    h2.aboutMe{
+        font-family: "Sora";
+        color: #ffe6ff;
+        font-size: 30px;
+        margin: 0;
+        margin-top: 50px;
+        margin-left: 35px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    /*    padding: 20px;*/
+    }
+    
+    .multitext{
+        font-family: "Sora";
+        color: #7a00cc;
+        font-size: 40px;
+        margin: 10px;
+        margin-top: 150px;
+        margin-bottom: 100px;
+    }
+    
+    .PinkSplash{
+        position: relative;
+        height: 400px;
+        width: 480px;
+        top: 0px;
+        right: 0px;
+        animation: animatepinkSplash 4s linear infinite;
+    
+    }
+
+    .PurpleSplash1{
+        position: relative;
+        bottom:100px;
+        right: 10px;
+        height: 50px;
+        width:100px;
+        animation: animatepurpleSplash 4s linear infinite;
+
+    }
+
+    .PurpleSplash2{
+        position: absolute;
+        bottom: 200px;
+        right: 10px;
+        height: 50px;
+        width: 100px;
+        transform: rotateY(180deg);
+        animation: animatepurpleSplash 4s linear infinite;
+
+    }
+
+    @keyframes animatepinkSplash{
+        50%{
+            top: 40%;
+            width: 450px;
+        }
+    }
+
+    @keyframes animatepurpleSplash{
+        50%{
+            height: 95px;
+            width:140px;
+
+        }
+    }
+
+    img.myphoto{
+        position:absolute;
+        height: 300px;
+        width: 350px;
+        top: 350px;
+        right: 80px;
+
+    }
+    
+    
+    
+    ul.topNav.responsive li.dropDown{
+        position: absolute;
+        top:0;
+        left:0;
+    }
+    
+    ul.topNav.responsive{
+        position: relative;
+    }
+    ul.topNav.responsive li{
+        display: inline;
+        float: none;
+    }
+    
+    ul.topNav.responsive li a{
+        display: block;
+        text-align: center;
+    }
+}
+
+
+
+
+

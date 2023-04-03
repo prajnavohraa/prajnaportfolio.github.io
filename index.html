@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+    
+<head>
+    
+    <title> Portfolio: Prajna</title>
+    <script>
+        function clickSound() {
+            var audio = document.getElementById("myAudio");
+            audio.play();
+        }
+    </script>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Quicksand:wght@500&family=Source+Code+Pro&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;400;600&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9686a15dcd.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    
+    
+</head>
+    
+<body id=gradient1>
+    <script type="text/javascript" src="okay.js"></script>
+    <nav>
+        <ul class="topNav" id=hamburgerClick>
+            <li class="topNavRight"><a href="#contact_me" onclick="clickSound()">contact me</a></li>
+            <li class="topNavRight"><a href="#projects" onclick="clickSound()">projects</a></li>  
+            <li class="topNavRight"><a href="#About_me" onclick="clickSound()">about me</a></li>
+            <li class="dropDown"><a href="javascript:void(0);" onclick="hamburgerMenu()">&#9776;</a></li>
+            <audio id="myAudio">
+                <source src="assets/mixkit-fast-double-click-on-mouse-275.wav" type="audio/mp3">
+            </audio>
+        </ul>
+    </nav>
+    
+    
+    
+    <div class="container" >
+        <div class="row">
+            <div class="col-8">
+                <div>
+                    <img class="PurpleSplashStill2" src="Asset_4-removebg-preview.png">
+                    <h1 class="fontSize"> Hi, I'm <span class="multitext">Prajna</span></h1>
+                    <h2 class="fontSize"> Design makes </h2>
+                    <h2 class="fontSize"> tech edible. </h2>
+                </div>
+            </div>
+            <div class="col-1">
+                    <img class="PinkSplash" src="Asset_1-removebg-preview%20(1).png">
+            </div>
+            
+            <div class="col-1">
+                <img class="myphoto" src=image-removebg-preview%20(23).png>
+            </div>
+            
+            <div class="col-1">
+                <img class="PurpleSplash1" src="Asset_4-removebg-preview.png">
+            </div>
+            
+            <div class="col-1">
+                <img class="PurpleSplash2" src="Asset_4-removebg-preview.png">
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+    
+    <script>
+        var typingEffect= new Typed(".multitext",{
+            strings:["Prajna", "a coder", "a designer", "Prajna"],
+            loop: true,
+            typeSpeed:100,
+            backSpeed: 80,
+            backDelay: 2000
+        })
+        
+    </script>
+    
+    
+    
+    
+    
+<!--    About me-->
+    
+    
+    
+    <div id="About_me">
+        
+        <div class="container">
+            
+            <h2 class="aboutMe"> About me</h2>
+            <div class="row">   
+                <div class="col-7">
+                    <img class="PurpleSplashStill" src="Asset_4-removebg-preview.png">
+                    <article>
+                        
+                    <p class="about"> I am Prajna, a Computer Science and Design sophomore at IIIT Delhi. I am immensely passionate about working in the domain of Human Computer Interaction. I believe design is an essential element in the field of technology. It is more than just making something look good! Design plays a crucial role in how users interact with technology. From user interfaces to the physical design of a product, design is key to creating a seamless and intuitive user experience. I have always been excited to work on projects that fall in the intersection of design and tech. Specifically, I am deeply interested in the field of wearable technologies such as Virtual Reality and Augmented reality and in their applications to solve problems. 
+
+                    </p>
+                    </article>
+                    <img class="PurpleSplashStill1" src="Asset_4-removebg-preview.png">
+                    
+
+                    <div class="tabs">
+                        <p class="tablink activeLink" onclick="opentab('skills')"> My Skills</p>
+                        <p class="tablink" onclick="opentab('education')"> Education</p> 
+                    </div>
+
+                    <div class="row">
+                        <div class="tabContent activeContent" id='skills'>
+                            <ul>
+                                <li><span>UI/UX</span><br> Figma, Blender, Fusion 360</li>
+                                <li><span>Web Development</span><br> HTML, CSS, JavaScript</li>
+                                <li><span>App Development</span><br> Flutter</li>
+                                <li><span>Adobe</span><br> Illustrator, Photoshop, Lightroom, InDesign</li>
+                                <li><span>Backend</span><br> C, C++, Java, Python</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="tabContent active" id='education'>
+                            <ul>
+                                <li><span>2021-2025</span><br> IIIT Delhi, BTech. Computer Science and Design</li>
+                                <li><span>2019-2021</span><br> Delhi Public School, Vasant Kunj</li>
+                                <li><span>2007-2019</span><br> Heritage Xperiential Learning School, Gurgaon</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-4">
+                    <img class="PinkSplash1" src="Asset_1-removebg-preview%20(1).png">
+                    <p id="text">TECH</p>
+                </div>
+                
+                
+            </div>
+        </div>
+    
+    </div>
+    
+    
+<!--    FOR HOVER EFFECT OF TECH AND DESIGN-->
+    
+    <script>
+        $(document).ready(function() {
+          $('#text').hover(function() {
+            var $this = $(this);
+            $this.css('opacity', '0');
+            setTimeout(function() {
+              $this.text('DESIGN').css('opacity', '1');
+            }, 500);
+          }, function() {
+            var $this = $(this);
+            $this.css('opacity', '0');
+            setTimeout(function() {
+              $this.text('TECH').css('opacity', '1');
+            }, 500);
+          });
+        });
+    </script>
+    
+    
+    <!--My prjects-->
+    <header>
+        
+    </header>
+    
+    <div id="projects">
+        <div class="container">
+            <h2 class="aboutMe"> My Projects</h2>
+            <img class="PurpleSplashStill3" src="Asset_4-removebg-preview.png">
+                <div class="project_list">
+                    <div class="mywork">
+                        <img src="safarlogo.jpg">
+                        <div class="project_content">
+                            <h3> Safar: An Application for a seamless travel experience</h3>
+                            
+                            <p> SAFAR is an application which enables us to create a more organised and integrated public transportation system. It enables users to plan their journey beforehand to avoid last minute hassles.</p>
+                            <a href="https://www.behance.net/gallery/161240603/Safar-A-Public-Transport-Travel-Application" onclick="clickSound()"><i class="fa-sharp fa-solid fa-link"></i> </a>
+                        </div>
+                    </div>
+                    
+                    <div class="mywork">
+                        <img src="Screenshot%202023-04-01%20184702.png">
+                        <div class="project_content">
+                            <h3> Dino: A pet lamp</h3>
+                            <br><br><br><br>
+                            <p> DINO is a cute dinosaur pet lamp for your study table to make it a little less boring!</p>
+                            <a href="assets/prajna_2021345_A3.blend" download onclick="clickSound()"><i class="fa-sharp fa-solid fa-link"></i> </a>
+                        </div>
+                    
+                    </div>
+                    
+                    <div class="mywork">
+                        <img src="Screenshot%202023-04-01%20185933.png">
+                        <div class="project_content">
+                            <h3> AI Metrics Technologies</h3><br><br><br><br>
+                            <p> Logo, website and business essential stationery designed for an AI company</p>
+                            <a href="https://www.behance.net/gallery/161251301/AI-Metrics-Technologies" onclick="clickSound()"><i class="fa-sharp fa-solid fa-link"></i> </a>  
+                        </div>
+                    
+                    </div>
+                </div>
+        </div>
+    </div>
+    
+    
+<!--    CONTACT ME-->
+    
+    <div id="contact_me">
+        <div class="container">
+            <img class="PurpleSplashStill4" src="Asset_4-removebg-preview.png">
+                <h2 class="aboutMe"> Contact Me</h2>
+                <div class="row">
+                    <div class="col-7">
+                        <form name='submit-to-google-sheet'>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email ID" placeholder="Your Email ID" required>
+                            <textarea name="Message" rows="5" placeholder="Your Message"></textarea>
+                            <button type="submit" class="butt2">Submit
+                            </button>
+                        </form>
+                        <span id="submitted"> </span>
+
+                    </div>
+                    
+                    
+                    <div class="col-4">
+                        <p> <i class="fa-solid fa-envelope"></i> prajna21345@iiitd.ac.in</p>
+                        <p> <i class="fa-solid fa-phone"></i> +91 8920120715</p>
+                        <div class="social-media">
+                            <a href="https://www.linkedin.com/in/prajna-vohra-2b654b20a/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/prajnavohraa"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.behance.net/prajnavohra"><i class="fa-brands fa-square-behance"></i></a>
+                            
+                        </div>
+                        <a href="2021345_PrajnaVohra.pdf" download class="butt" onclick="clickSound()"> Download Resume</a>
+                    </div>
+
+                    <div class="col-5">
+
+                    </div>
+                    
+
+                </div>
+        </div>
+        
+    </div>
+    
+    
+    <script>
+        var tablink=document.getElementsByClassName("tablink");
+        var tabcontent=document.getElementsByClassName("tabContent");
+        
+        function opentab(tabname){
+            for(tl of tablink){
+                tl.classList.remove("activeLink");
+            }
+            for(tc of tabcontent){
+                tc.classList.remove("activeContent");
+            }
+            event.currentTarget.classList.add("activeLink");
+            document.getElementById(tabname).classList.add("activeContent");
+        }
+    </script>
+    
+    <script>
+        function hamburgerMenu(){
+            var id=document.getElementById("hamburgerClick");
+            if(id.className==="topNav"){
+                id.className+=" responsive";
+            }
+            else{
+                id.className="topNav";
+            }
+        }
+    </script>
+    
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwukHhM19XPyo9dMTvF3y6ecwugaJwbSoLbk339slUY73SKrCtXTwKb8rwCq2_tVOA/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg= document.getElementById("submitted")
+      form.addEventListener('submit', e => {
+          e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response =>{
+                submitted.innerHTML="Form Submitted!"
+                setTimeout(function(){
+                    submitted.innerHTML=""}, 4000)
+                form.reset()
+            } )
+          .catch(error => console.error('Error!', error.message))
+  })
+</script>
+    
+</body>
+
+</html>
